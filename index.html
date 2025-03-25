@@ -7,43 +7,39 @@
     <meta name="keywords" content="Pepperdog, online game, play Pepperdog, free browser game, adventure game">
     <meta name="author" content="Pepperdog Online">
     <link rel="canonical" href="https://pepperdog.online/">
-    <title>Pepperdog - Play Free Online Game</title>
+    <title>Pepperdog - Play Free Online Games</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 text-gray-900">
     <header class="bg-blue-600 text-white text-center py-6 shadow-lg">
-        <h1 class="text-4xl font-bold">Pepperdog - Play Free Online Game</h1>
+        <h1 class="text-4xl font-bold">Pepperdog - Play Free Online Games</h1>
+        <nav class="mt-4">
+            <ul class="flex justify-center space-x-6">
+                <li><a href="index.html" class="text-white hover:underline">Home</a></li>
+                <li><a href="categories.html" class="text-white hover:underline">Game Categories</a></li>
+                <li><a href="about.html" class="text-white hover:underline">About</a></li>
+            </ul>
+        </nav>
     </header>
     
     <main class="max-w-4xl mx-auto px-4 py-8">
-        <section class="mb-6">
-            <h2 class="text-2xl font-semibold text-blue-700 mb-2">Welcome to Pepperdog!</h2>
-            <p class="text-lg text-gray-700">Pepperdog is an exciting online game where you embark on thrilling adventures. Play now and experience the fun!</p>
+        <section class="mb-6 text-center">
+            <h2 class="text-2xl font-semibold text-blue-700 mb-4">Find Your Favorite Games</h2>
+            <input type="text" placeholder="Search games..." class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
         </section>
         
         <section class="mb-6">
-            <h2 class="text-2xl font-semibold text-blue-700 mb-2">Play Now</h2>
-            <div class="border-4 border-blue-500 rounded-lg overflow-hidden">
-                <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
-                        class="w-full h-[600px] md:h-[700px]"
-                        allowfullscreen>
-                </iframe>
+            <h2 class="text-2xl font-semibold text-blue-700 mb-2">Game Categories</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <a href="categories/action.html" class="block bg-white p-4 rounded-lg shadow hover:shadow-lg">Action</a>
+                <a href="categories/shooting.html" class="block bg-white p-4 rounded-lg shadow hover:shadow-lg">Shooting</a>
+                <a href="categories/puzzle.html" class="block bg-white p-4 rounded-lg shadow hover:shadow-lg">Puzzle</a>
+                <a href="categories/strategy.html" class="block bg-white p-4 rounded-lg shadow hover:shadow-lg">Strategy</a>
+                <a href="categories/sports.html" class="block bg-white p-4 rounded-lg shadow hover:shadow-lg">Sports</a>
+                <a href="categories/horror.html" class="block bg-white p-4 rounded-lg shadow hover:shadow-lg">Horror</a>
+                <a href="categories/anime.html" class="block bg-white p-4 rounded-lg shadow hover:shadow-lg">Anime</a>
+                <a href="categories/pixel.html" class="block bg-white p-4 rounded-lg shadow hover:shadow-lg">Pixel Art</a>
             </div>
-        </section>
-        
-        <section class="mb-6">
-            <h2 class="text-2xl font-semibold text-blue-700 mb-2">Game Overview</h2>
-            <p class="text-lg text-gray-700">Pepperdog is a browser-based game that combines action, adventure, and strategy. Compete with players worldwide and unlock new levels as you progress!</p>
-        </section>
-        
-        <section class="mb-6">
-            <h2 class="text-2xl font-semibold text-blue-700 mb-2">Why Play Pepperdog?</h2>
-            <ul class="list-disc pl-6 text-lg text-gray-700">
-                <li>Free to play with no downloads required</li>
-                <li>Optimized for both PC and mobile devices</li>
-                <li>Engaging gameplay with multiple levels</li>
-                <li>Compete with players globally</li>
-            </ul>
         </section>
     </main>
     
